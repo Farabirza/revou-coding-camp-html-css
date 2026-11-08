@@ -3,25 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latihan 1 Revou Coding Camp HTML CSS</title>
+    <title>Expanded HTML Example</title>
 </head>
 <body>
-    <h1>Irza Suamiku</h1>
-    <p>tolong aku mau dipeluk</p>
-    <p>Ini Paragraf 1</p>
-    <p>Ini Paragraf 2</p>
-    <hr/>
-    kita punya sesuatu disini
-    <br/>
-    <!-- Mau dienter terus disini aku batal, maunya jadi komentar aja -->
+<style>
+    h1 {
+       color: lightcoral;
+       text-shadow: 2px 2px 5px pink ;
+    }
+    p {
+        text-align: center;
+    }
+</style>
+    <!-- Main Heading -->
+    <h1>Welcome to My Website</h1>
+    <p>This is a simple paragraph of text on a basic HTML page.</p>
+    
+    <!-- Link Element -->
+    <p>Learn more at <a href="https://w3schools.com" target="_blank">W3Schools</a>.</p>
 
-    <h1>Biasanya bikin judul Bab 1</h1>
-    <h2>Bab1.1</h2>
-    <h3>Bab 1.1.1</h3>
-    <h4>bab 1.1.1.1</h4>
+    <hr> <!-- Horizontal Rule (Line Separator) -->
 
-    <hr/>
+    <!-- Image Element -->
+    <h2>1. Image Example</h2>
+    <!-- Note: Replace the src URL with your own image path if needed -->
+    <img src="https://picsum.photos" alt="A random beautiful placeholder image" width="400" height="200">
 
-    <p>Misalkan aku punya paragraf, Aku mau paragrafnya di <b>bold</b>, lalu aku mau juga dia <i>italic/miring</i>, aku maunya dia <sub>turun ke bawah</sub>, ada juga yang naik ke atas.contoh 2<sup>2</sup>.</p>
+    <!-- List Elements -->
+    <h2>2. Lists</h2>
+    <h3>Unordered List (Bulleted)</h3>
+    <ul>
+        <li>HTML (Structure)</li>
+        <li>CSS (Style)</li>
+        <li>JavaScript (Behavior)</li>
+    </ul>
+
+    <h3>Ordered List (Numbered)</h3>
+    <ol type="A">
+        <li>Open text editor</li>
+        <li>Write HTML code</li>
+        <li>Save as .html</li>
+        <li>Open in browser</li>
+    </ol>
+
+    <!-- Table Element -->
+    <h2>3. Data Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Language</th>
+                <th>Type</th>
+                <th>Difficulty</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>Markup</td>
+                <td>Easy</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Styling</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Styling</td>
+                <td>Medium</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Simple Form Elements -->
+    <h2>4. Contact Form</h2>
+    <form action="#">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name..."><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30" placeholder="Type here..."></textarea><br><br>
+
+        <button type="submit">Submit Info</button>
+    </form>
+
 </body>
 </html>
